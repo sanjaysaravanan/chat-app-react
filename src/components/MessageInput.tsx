@@ -15,7 +15,7 @@ const MessageInput: React.FC<MsgInpProp> = ({ addMsg }) => {
     <form className="mt-2" onSubmit={sendMessage}>
       <input
         type="text"
-        className="border w-4/5 p-2 rounded m-2"
+        className="border w-3/5 p-2 rounded m-2"
         placeholder="Type a message..."
         value={message}
         onChange={(e) => setMessage(e.target.value)}

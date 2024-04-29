@@ -48,14 +48,14 @@ const ChatBox: React.FC = () => {
       <div
         className="p-4 w-full h-full overflow-y-auto no-scrollbar"
         style={{
-          height: "calc(100vh - 82px)",
+          height: "calc(100vh - 104px)",
         }}
       >
         {messages.map((msg, index) => (
           <Message key={index} text={msg.text} isSelf={msg.isSelf} />
         ))}
       </div>
-      <div className="p-2 absolute bottom-0 w-full bg-secondary">
+      <div className="p-2 mb-6 absolute bottom-0 w-full bg-secondary">
         <MessageInput addMsg={addMsg} />
       </div>
     </>
