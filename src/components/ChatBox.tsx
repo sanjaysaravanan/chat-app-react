@@ -46,7 +46,7 @@ const ChatBox: React.FC = () => {
   return (
     <>
       <div
-        className="p-4 w-full h-full overflow-y-auto no-scrollbar"
+        className="p-6 w-full h-full overflow-y-auto no-scrollbar"
         style={{
           height: "calc(100vh - 104px)",
         }}
