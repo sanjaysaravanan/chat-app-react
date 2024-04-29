@@ -1,0 +1,12 @@
+{
+  "name": "Chat-App",
+  "short_name": "Chat-App",
+  "description": "Simple Chat Application",
+  "theme_color": "#007aff",
+  "background_color": "#f8f9fb",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "screenshots": [],
+  "icons": []
+}
