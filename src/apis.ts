@@ -33,7 +33,7 @@ const signIn = async () => {
 };
 
 // const url = "ws://192.168.0.207:5000";
-// const url = "wss://chat-app-be-s3wb.onrender.com";
+const url = "wss://chat-app-be-s3wb.onrender.com";
 
 const ws = new WebSocket(url);
 
