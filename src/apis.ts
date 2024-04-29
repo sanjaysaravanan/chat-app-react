@@ -32,7 +32,10 @@ const signIn = async () => {
   }
 };
 
-const ws = new WebSocket("ws://localhost:5000");
+// const url = "ws://localhost:5000";
+const url = "wss://chat-app-be-s3wb.onrender.com";
+
+const ws = new WebSocket(url);
 
 ws.addEventListener("open", () => {
   console.log("We are connected!");
